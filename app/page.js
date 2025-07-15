@@ -36,7 +36,7 @@ export default function Home() {
           >
             <Image
               src="/images/profile.png"
-              alt="Victor Ezeanyika"
+              alt="Famade Eniola"
               width={80}
               height={80}
               className="rounded-full border-2 border-gray-200 dark:border-gray-700 shadow-lg"
@@ -50,7 +50,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <TypeWriter text="Victor Ezeanyika" speed={50} />
+              <TypeWriter text="Famade Eniola" speed={50} />
             </motion.h1>
             <motion.p
               className="dark:text-gray-300 text-gray-700"
@@ -58,7 +58,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 }}
             >
-              <TypeWriter text="FullStack Developer" speed={70} delay={500} />
+              <TypeWriter text="Frontend Developer" speed={70} delay={200} />
             </motion.p>
           </div>
         </div>
@@ -82,7 +82,7 @@ export default function Home() {
 
           {/* WhatsApp Link */}
           <motion.a
-            href="https://wa.me/2349014839655"
+            href="https://wa.me/2349059294952"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-500 hover:text-green-600 transition-colors"
@@ -94,7 +94,7 @@ export default function Home() {
 
           {/* LinkedIn Link */}
           <motion.a
-            href="https://www.linkedin.com/in/victorezeanyika"
+            href="https://www.linkedin.com/in/famade-eniola-11605a263/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-500 hover:text-blue-600 transition-colors"
@@ -106,7 +106,7 @@ export default function Home() {
 
           {/* GitHub Link */}
           <motion.a
-            href="https://github.com/VictorEZCodes"
+            href="https://github.com/3nitheactivist"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
@@ -118,7 +118,7 @@ export default function Home() {
 
           {/* X Link */}
           <motion.a
-            href="https://x.com/victoranyika_"
+            href="https://x.com/3niola_dev"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors"

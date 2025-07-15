@@ -5,10 +5,10 @@ import { motion } from 'framer-motion'
 
 export default function SocialLinks() {
   const socialLinks = [
-    { icon: FaWhatsapp, href: "https://wa.me/2349014839655", color: "text-green-500 hover:text-green-600" },
-    { icon: FaLinkedin, href: "https://www.linkedin.com/in/victorezeanyika", color: "text-blue-500 hover:text-blue-600" },
-    { icon: FaGithub, href: "https://github.com/VictorEZCodes", color: "text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" },
-    { icon: FaXTwitter, href: "https://x.com/victoranyika_", color: "text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" },
+    { icon: FaWhatsapp, href: "https://wa.me/2349059294952", color: "text-green-500 hover:text-green-600" },
+    { icon: FaLinkedin, href: "https://www.linkedin.com/in/famade-eniola-11605a263/", color: "text-blue-500 hover:text-blue-600" },
+    { icon: FaGithub, href: "https://github.com/3nitheactivist", color: "text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" },
+    { icon: FaXTwitter, href: "https://x.com/3niola_dev", color: "text-gray-800 dark:text-white hover:text-gray-600 dark:hover:text-gray-300" },
   ]
 
   return (

@@ -11,7 +11,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata = {
-  title: 'Victor Ezeanyika - Portfolio',
+  title: 'Famade Eniola - Portfolio',
   description: 'Software Developer Portfolio',
 }
 

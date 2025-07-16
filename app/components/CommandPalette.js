@@ -60,7 +60,7 @@ export default function CommandPalette() {
       name: 'Visit LinkedIn',
       shortcut: ['g', 'l'],
       action: () => {
-        window.open('https://www.linkedin.com/in/victorezeanyika', '_blank')
+        window.open('https://www.linkedin.com/in/famade-eniola-11605a263', '_blank')
         setIsOpen(false)
       }
     },
@@ -69,7 +69,7 @@ export default function CommandPalette() {
       name: 'Visit Whatsapp',
       shortcut: ['g', 'w'],
       action: () => {
-        window.open('https://wa.me/2349014839655', '_blank')
+        window.open('https://wa.me/2349059294952', '_blank')
         setIsOpen(false)
       }
     },
@@ -78,7 +78,7 @@ export default function CommandPalette() {
       name: 'Visit X',
       shortcut: ['g', 'x'],
       action: () => {
-        window.open('https://x.com/victoranyika_', '_blank')
+        window.open('https://x.com/3niola_dev', '_blank')
         setIsOpen(false)
       }
     }

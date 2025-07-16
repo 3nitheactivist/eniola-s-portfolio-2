@@ -50,7 +50,7 @@ export default function Home() {
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2 }}
             >
-              <TypeWriter text="Famade Eniola" speed={50} />
+              <TypeWriter text="Famade Eniola Mfon" speed={50} />
             </motion.h1>
             <motion.p
               className="dark:text-gray-300 text-gray-700"
@@ -71,7 +71,7 @@ export default function Home() {
         >
           {/* Resume Button */}
           <motion.a
-            href="/victorezeanyika.pdf"
+            href="/famade eniola's cv.docx"
             target="_blank"
             className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
             whileHover={{ scale: 1.05 }}

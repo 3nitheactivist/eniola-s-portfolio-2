@@ -1,14 +1,31 @@
 [
   {
     "id": 1,
-    "title": "FitTrackerPro",
-    "description": "A comprehensive fitness tracking web application that helps users monitor their health metrics. This tool features a BMI (Body Mass Index) calculator and a daily calorie needs estimator. Users can input their weight, height, age, and gender to receive personalized health insights. The clean, user-friendly interface makes it easy for individuals to track their fitness progress and set informed health goals.",
-    "techStack": ["React"],
-    "link": "https://fittrackerpro.vercel.app/",
-    "imageUrl": "/images/tracker.png"
+    "title": "HopeBank Agency (UI)",
+    "description": "Built a responsive, accessible React UI for HopeBank’s agency portal, crafting pixel‑perfect layouts for account overviews, transaction lookups, and deposit forms.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "link": "https://tm-30-projects.vercel.app/",
+    "imageUrl": "/images/hopebank.jpg"
   },
   {
     "id": 2,
+    "title": "Umamy city.com",
+    "description": "Built a responsive food‑ordering UI with HTML, CSS, and JavaScript, featuring dynamic menu filtering, cart management, and LocalStorage‑powered order persistence.",
+
+    "techStack": ["HTML", "CSS", "JavaScript", "LocalStorage"],
+    "link": "https://react-restaurant-seven.vercel.app/",
+    "imageUrl": "/images/resturant-01.png"
+  },
+  {
+    "id": 3,
+    "title": "My Portfolio",
+    "description": "Developed a personal portfolio website to showcase my projects, skills, and background. Built with HTML, CSS, and JavaScript, it features a responsive layout, smooth scrolling navigation, an interactive project gallery, and a contact form for inquiries.",
+    "techStack": ["HTML", "CSS", "JavaScript"],
+    "link": "https://eniolas-portifolio.vercel.app/",
+    "imageUrl": "/images/first-portfolio.png"
+  },
+  {
+    "id": 4,
     "title": "Website Summarizer",
     "description": "A dynamic web application to summarize uploaded articles using OpenAI GPT-4 API.",
     "techStack": [
@@ -22,16 +39,9 @@
     "link": "https://website-summarizer-x0on.onrender.com/",
     "imageUrl": "/images/summarizer.png"
   },
+
   {
-    "id": 3,
-    "title": "Blockchain Farm",
-    "description": "A decentralized application (DApp) that lets user farm X tokens and earn X tokens.",
-    "techStack": ["Solidity", "Web3.js", "Next.js"],
-    "link": "https://v2testfarmbsc.netlify.app/",
-    "imageUrl": "/images/farm.png"
-  },
-  {
-    "id": 4,
+    "id": 5,
     "title": "Recipe Finder",
     "description": "A dynamic web application that helps users discover new recipes based on ingredients, dietary preferences, and nutritional requirements. Leveraging the powerful Edamam API, this tool offers a vast database of recipes from around the world.",
     "techStack": ["HTML", "CSS", "JavaScript"],
@@ -39,72 +49,7 @@
     "imageUrl": "/images/recipe.png"
   },
   {
-    "id": 5,
-    "title": "Codexchange",
-    "description": "A pioneering decentralized platform revolutionizing the buying and selling of Web3/Web2 businesses. This innovative marketplace leverages blockchain technology to create a transparent, secure, and efficient environment for digital asset acquisitions.",
-    "techStack": [
-      "MongoDB",
-      "Next.js",
-      "Web3.js",
-      "Solidity",
-      "Express",
-      "Node.js",
-      "Telegram Bot"
-    ],
-    "link": "https://codexchange-frontend.onrender.com/",
-    "imageUrl": "/images/codexchange.png"
-  },
-  {
     "id": 6,
-    "title": "Voice-Controlled Web App",
-    "description": "This innovative web application leverages cutting-edge voice recognition technology to create an interactive, hands-free user experience. Built with JavaScript and powered by various APIs, including OpenAI's GPT-3.5-turbo, the app can understand and respond to voice commands, providing a wide range of functionalities",
-    "techStack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "OpenAI API",
-      "ResponsiveVoice API",
-      "Express",
-      "Node.js",
-      "OpenWeatherMap API",
-      "API Ninjas",
-      "Wit.ai"
-    ],
-    "link": "https://voice-assistant-12rd.onrender.com/",
-    "imageUrl": "/images/voice_web_app.png"
-  },
-  {
-    "id": 7,
-    "title": "OptiPic",
-    "description": "OptiPic is a powerful, user-friendly web application designed for efficient bulk image compression. This tool allows users to optimize multiple images simultaneously, significantly reducing file sizes while maintaining image quality. Perfect for photographers, web developers, and content creators who need to manage and optimize large image libraries quickly and easily.",
-    "techStack": ["Next.js", "Tailwind CSS", "Node.js"],
-    "link": "https://optipic.vercel.app/",
-    "imageUrl": "/images/optipic.png"
-  },
-  {
-    "id": 8,
-    "title": "Split The Bill",
-    "description": "SplitTheBill is a web application designed to simplify the process of splitting bills among friends, roommates, or colleagues. It offers an intuitive interface for managing shared expenses with percentage-based splitting capabilities.",
-    "techStack": ["Next.js", "Tailwind CSS", "TypeScript"],
-    "link": "https://thebillsplitterweb.netlify.app",
-    "imageUrl": "/images/bill.png"
-  },
-  {
-    "id": 9,
-    "title": "BouncerLink",
-    "description": "BouncerLink is a sophisticated URL shortening service offering advanced link management features such as link expiration, access control via password or email, click limiting, analytics dashboard for tracking performance, email notifications, and the ability to create custom short URLs for personalized sharing.",
-    "techStack": [
-      "Next.js",
-      "Tailwind CSS",
-      "TypeScript",
-      "PostgreSQL with Prisma ORM",
-      "NextAuth.js"
-    ],
-    "link": "https://bouncerlink.netlify.app/",
-    "imageUrl": "/images/bouncerlink.png"
-  },
-  {
-    "id": 10,
     "title": "ProCompress",
     "description": "ProCompress is a cutting-edge image compression tool designed to optimize image sizes, enhance website performance, and reduce bandwidth usage. This innovative web application leverages the latest compression algorithms and user-friendly interfaces to deliver fast, efficient image optimization solutions.",
     "techStack": [
@@ -118,38 +63,115 @@
     "imageUrl": "/images/procompress.png"
   },
   {
-    "id": 11,
-    "title": "FashionHub",
-    "description": "This project is a full-stack e-commerce platform for a clothing shop. It features a React-based frontend and a Node.js/Express backend, with MongoDB as the database. The application allows users to browse products, add items to their cart, place orders, and includes an admin panel for managing products and orders.",
+    "id": 7,
+    "title": "Biometric Attendance System",
+    "description": [
+      "Replaced NFC cards with a Bluetooth‑connected fingerprint scanner for secure student enrollment and attendance tracking.",
+      "Enrolled students via fingerprint, created courses, and recorded attendance per course, with real‑time updates through WebSockets.",
+      "Stored and retrieved attendance records in Firebase, using Firebase Auth for secure admin access."
+    ],
+    "techStack": [
+      "React.js",
+      "Node.js (WebSocket communication)",
+      "Firebase",
+      "Firebase Auth"
+    ],
+    "hardwareIntegration": "Fingerprint scanner connected over Bluetooth and interfaced via a Node.js script using WebSockets for live operations.",
+    "link": "https://biometric-attendance-website.vercel.app/",
+    "imageUrl": "/images/bio-attendance.png",
+    "credentials": {
+      "email": "enithatdancer@gmail.com",
+      "password": "famade",
+      "role": "admin"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Course Registation System (Admin)",
+    "description": "A full‑stack React & Firebase application that automates student course enrollment. Features secure authentication, course selection via Enrollment API or CSV upload (PapaParse), and downloadable PDF reports (jsPDF), all wrapped in a polished Ant Design & Framer Motion interface. Automates tedious manual processes to deliver faster, more accurate outcomes.",
+
     "techStack": [
       "React",
-      "Tailwind CSS",
-      "MongoDB",
+      "Firebase",
+      "Firebase Auth",
+      "Ant Design",
       "Framer Motion",
-      "Node.js"
+      "Enrollment API",
+      "PapaParse",
+      "jsPDF"
     ],
-    "link": "https://ecommclothingshop.netlify.app",
-    "imageUrl": "/images/fashionhub.png"
+    "credentials": {
+      "email": "famade@gmail.com",
+      "password": "famade",
+      "role": "admin"
+    },
+    "link": "https://course-registration-and-result-processing-system.vercel.app/",
+    "imageUrl": "/images/course-reg-02.png"
+  },
+  {
+    "id": 9,
+    "title": "Course Registration System (Student)",
+    "description": "When an admin enrolls a student, an account is auto‑created using their email and matric number with a default password (changeable on first login). Students log in to access their profile page and view all registered courses in a clean, intuitive React & Firebase portal built with Ant Design and Framer Motion.",
+    "techStack": [
+      "React",
+      "Firebase",
+      "Firebase Auth",
+      "Ant Design",
+      "Framer Motion",
+      "Enrollment API",
+      "PapaParse",
+      "jsPDF"
+    ],
+    "credentials": {
+      "email": "(registered student email)",
+      "password": "student123",
+      "role": "student"
+    },
+    "link": "https://course-registration-and-result-processing-system.vercel.app/",
+    "imageUrl": "/images/course-stud-reg-03.png"
+  },
+
+  {
+    "id": 10,
+    "title": "Hospital Management System",
+    "description": "React & Firebase HMS for patient record management, portal‑email appointment scheduling, treatment & prescription tracking, billing, and patient self‑registration.",
+    "techStack": [
+      "React.js",
+      "Node.js",
+      "Firebase",
+      "Firebase Auth",
+      "NodeMailer",
+      "Enrollment API"
+    ],
+    "credentials": {
+      "email": "hospitalmanagementyct25@gmail.com",
+      "password": "hmsyct2025",
+      "role": "admin"
+    },
+    "link": "https://hospital-management-system-one-phi.vercel.app/",
+    "imageUrl": "/images/hms.png"
+  },
+  {
+    "id": 11,
+    "title": "Vehicle Verification System",
+    "description": "A React & Firebase system that verifies license plates using OCR and Tesseract in Python. Admins can manage users and assign roles like officer or vehicle owner.   NOTE: The portal handles 3 roles i.e. Admin, Officer, And Vehicle Owners. ",
+    "techStack": [
+      "React.js",
+      "Firebase",
+      "Firebase Auth",
+      "Python",
+      "Tesseract OCR"
+    ],
+    "credentials": {
+      "email": "admin@test.com",
+      "password": "officer123",
+      "role": "admin"
+    },
+    "link": "https://vehicle-verification-system.vercel.app/",
+    "imageUrl": "/images/vehicle-reg-1.png"
   },
   {
     "id": 12,
-    "title": "SmartFitPlan",
-    "description": "SmartFitPlan is a Next.js-based web application that leverages artificial intelligence to create personalized workout plans and provide nutrition advice tailored to your fitness goals.",
-    "techStack": [
-      "React",
-      "Tailwind CSS",
-      "MongoDB",
-      "Framer Motion",
-      "Next.js",
-      "Clerk",
-      "MongoDB",
-      "RapidAPI"
-    ],
-    "link": "https://smartfitplan.xyz/",
-    "imageUrl": "/images/smartfitplan.png"
-  },
-  {
-    "id": 13,
     "title": "Mood Tracker Application V1",
     "description": "The Mood Tracker is a web application designed to help users log and visualize their daily moods. Users can select from a set of predefined mood emojis or add custom emojis to represent their feelings. The application allows users to add notes to their mood entries, view a history of their moods, and visualize mood trends over time using a chart. Additionally, users can export their mood data as a JSON file for personal records. The application supports both light and dark themes for a personalized user experience.",
     "techStack": [
@@ -161,6 +183,26 @@
     ],
     "link": "https://trackmoods.netlify.app/",
     "imageUrl": "/images/mood_tracker.png"
+  },
+  {
+    "id": 12,
+    "title": "NFC Tracking System",
+    "description": "A React & Firebase-based attendance system integrated with NFC hardware for real-time tracking across classrooms, exams, and campus access. It supports multi-level enrollment, time-stamped logs, and generates comprehensive attendance reports. Hardware communication is handled via Node.js and WebSockets.",
+    "techStack": [
+      "React.js",
+      "Firebase Firestore",
+      "Firebase Auth",
+      "Node.js",
+      "WebSocket",
+      "Bluetooth-Serial-Port"
+    ],
+    "credentials": {
+      "email": "yabatechnfc@gmail.com",
+      "password": "yabatech2025",
+      "role": "admin"
+    },
+    "link": "https://nfc-tracking-system-v2.vercel.app/",
+    "imageUrl": "/images/nfc-track-v2.png"
   },
   {
     "id": 14,
@@ -177,255 +219,25 @@
     "link": "https://advancedmoodtracker.netlify.app/",
     "imageUrl": "/images/mood_tracker_2.png"
   },
-  {
-    "id": 15,
-    "title": "Code Documentation Assistant",
-    "description": "A powerful web application that automates the creation of comprehensive documentation for GitHub repositories. Built with GPT-4 Turbo, this tool analyzes repository content and generates detailed README files with API references, changelogs, and implementation details. Features include a real-time markdown preview, intelligent repository scanning, and a user-friendly interface for seamless documentation generation. Perfect for developers looking to maintain high-quality documentation with minimal effort.",
-    "techStack": [
-      "JavaScript",
-      "Vite",
-      "Tailwind CSS",
-      "OpenAI API",
-      "GitHub API"
-    ],
-    "link": "https://documentationassistant.netlify.app/",
-    "imageUrl": "/images/code_doc_assistant.png"
-  },
-  {
-    "id": 16,
-    "title": "Open-Source API Tester",
-    "description": "A lightweight, browser-based API testing tool for developers to test and organize API requests efficiently without the complexity of traditional tools.",
-    "techStack": ["JavaScript", "Vite", "Tailwind CSS", "HTML5"],
-    "link": "https://openapitester.netlify.app/",
-    "imageUrl": "/images/api_tester.png"
-  },
-  {
-    "id": 17,
-    "title": "Dev Tools Aggregator",
-    "description": "A comprehensive web-based developer toolkit that combines essential development utilities in one interface. Features include JSON formatter, Base64 encoder/decoder, URL encoder/decoder, Regex tester, Hash generator, UUID generator, Timestamp converter, Markdown previewer, Color converter, JWT decoder, HTTP request tester, CSS minifier, and JSON to CSV converter. Built with a clean, responsive interface and dark mode support, this tool streamlines developer workflows by providing quick access to commonly needed utilities.",
-    "techStack": [
-      "JavaScript",
-      "Vite",
-      "Tailwind CSS",
-      "Feather Icons",
-      "Marked.js"
-    ],
-    "link": "https://toolsaggregator.netlify.app/",
-    "imageUrl": "/images/aggregator.png"
-  },
-  {
-    "id": 18,
-    "title": "Insight Flow Analytics",
-    "description": "A lightweight analytics dashboard that provides users with essential, real-time web traffic insights.",
-    "techStack": ["JavaScript", "Vite", "Tailwind CSS"],
-    "link": "https://insightflowanalytics.netlify.app/",
-    "imageUrl": "/images/insightflow.png"
-  },
-  {
-    "id": 19,
-    "title": "WhisperBox",
-    "description": "A simple SaaS that helps startups, indie hackers, and small businesses gather user feedback quickly and effortlessly. Embed a small widget on your site/app, view all feedback in a centralized dashboard, and iterate based on real user insights.",
-    "techStack": ["Next.js", "Railway", "Tailwind CSS"],
-    "link": "https://whisperbox.tech/",
-    "imageUrl": "/images/whisperbox.png"
-  },
-  {
-    "id": 20,
-    "title": "Argument Winner",
-    "description": "Argument Winner is a web application that helps users quickly find and cite academic studies to support their arguments in real-time discussions. Unlike generic search engines or AI tools that often surface social media content, this tool specifically focuses on academic research papers.",
-    "techStack": ["Next.js", "OpenAI API", "Tailwind CSS", "Supabase"],
-    "link": "https://argwinner.netlify.app/",
-    "imageUrl": "/images/argument_winner.png"
-  },
-  {
-    "id": 21,
-    "title": "Discord-Whatsapp Bridge",
-    "description": "A Node.js bot that forwards messages from Discord channels to WhatsApp. Messages from specified Discord channels are automatically forwarded to a designated WhatsApp number with preserved formatting and sender information.",
-    "techStack": ["Node.js", "Discord.js", "Whatsapp-web.js"],
-    "link": "https://github.com/VictorEZCodes/discord-whatsapp-bridge/",
-    "imageUrl": "/images/discord-whatsapp-bridge.png"
-  },
-  {
-    "id": 22,
-    "title": "Tab Mood Tracker Extension",
-    "description": "Tracks your mood based on websites you visit.",
-    "techStack": ["JavaScript", "HTML", "CSS"],
-    "link": "https://github.com/VictorEZCodes/tab-mood-tracker-extension/",
-    "imageUrl": "/images/tab-mood-tracker.png"
-  },
-  {
-    "id": 23,
-    "title": "Personal Finance Tracker",
-    "description": "A modern web application built with Next.js and React that helps users manage their personal finances. Track income, expenses, and monitor spending patterns with interactive visualizations.",
-    "techStack": ["Next.js", "React Context API", "Tailwind CSS"],
-    "link": "https://personalfinancedemotracker.netlify.app/",
-    "imageUrl": "/images/personal-finance-tracker.png"
-  },
-  {
-    "id": 24,
-    "title": "Smart CodeGen",
-    "description": "A robust, AI-powered CLI tool for efficient React development. Generate React components, custom hooks, and CRUD operations with TypeScript support and industry best practices baked in.",
-    "techStack": ["JavaScript", "OpenAI API", "Node.js"],
-    "link": "https://www.npmjs.com/package/smart-codegen-cli/",
-    "imageUrl": "/images/codegen.png"
-  },
-  {
-    "id": 25,
-    "title": "AI Agent NBA Props Analyzer",
-    "description": "NBA Props Analyzer is a tool designed to analyze player props for upcoming NBA games. It leverages various data sources to provide insights and recommendations on player performance metrics.",
-    "techStack": ["JavaScript", "OpenAI API", "RapidAPI", "Node.js"],
-    "link": "https://github.com/VictorEZCodes/ai-agent-nba-props-analyzer/",
-    "imageUrl": "/images/nba.png"
-  },
-  {
-    "id": 26,
-    "title": "Time Capsule",
-    "description": "A sleek and interactive website designed to count down the days, hours, minutes, and seconds to the arrival of 2025. It offers a visually engaging experience, complete with dynamic updates, ensuring users stay captivated as they anticipate the future. Whether you're curious about the time left until the new year or simply enjoy tracking moments, this countdown website keeps you informed and excited every step of the way!",
-    "techStack": ["Next.js", "Tailwind CSS"],
-    "link": "https://maketimecapsule.netlify.app/",
-    "imageUrl": "/images/capsule.png"
-  },
-  {
-    "id": 27,
-    "title": "Contently",
-    "description": "Contently is a platform that allows users to convert website content into clean, structured Markdown format. It is designed for developers, researchers, content creators, and AI enthusiasts who need efficient and automated solutions for managing, repurposing, and archiving web content.",
-    "techStack": ["Vite", "Tailwind CSS"],
-    "link": "https://contentlyai.netlify.app/",
-    "imageUrl": "/images/contently.png"
-  },
-  {
-    "id": 28,
-    "title": "Deepseek AI API Chat Interface",
-    "description": "A modern, responsive web application for interacting with DeepSeek's AI models. Built with vanilla JavaScript and Tailwind CSS.",
-    "techStack": ["Vite", "Tailwind CSS", "LocalStorage"],
-    "link": "https://deepseekui.netlify.app/",
-    "imageUrl": "/images/deepseek.png"
-  },
-  {
-    "id": 29,
-    "title": "FinanceAI",
-    "description": "A modern financial market analysis platform combining real-time market data with AI-powered insights.",
-    "techStack": [
-      "Vite",
-      "Railway",
-      "Netlify",
-      "Tailwind CSS",
-      "HuggingFace",
-      "OpenAI API"
-    ],
-    "link": "https://financeaiagent.netlify.app/",
-    "favorite": false,
-    "imageUrl": "/images/financeai.png"
-  },
-  {
-    "id": 30,
-    "title": "BSCrypt Finance",
-    "description": "Boost investor confidence and community trust by securing your token with a liquidity lock. Ensure long-term stability and demonstrate your commitment to transparency and security.",
-    "techStack": ["React", "Web3.js", "Solidity", "Coingecko API"],
-    "link": "https://bscrypt.netlify.app/",
-    "imageUrl": "/images/bscrypt.png"
-  },
-  {
-    "id": 31,
-    "title": "Dice Casino",
-    "description": "A decentralized gambling platform on BNB Chain (BSC) that lets users play a provably fair dice game using BNB.",
-    "techStack": [
-      "Solidity",
-      "Node.js",
-      "Ethers.js",
-      "Telegraf",
-      "OpenZeppelin",
-      "Hardhat"
-    ],
-    "link": "https://github.com/VictorEZCodes/DiceCasino",
-    "imageUrl": "/images/dicecasino.png"
-  },
-  {
-    "id": 32,
-    "title": "AirBuckets",
-    "description": "Experience the future of cloud storage with our unlimited, secure, and completely free platform—no hidden fees or limits.",
-    "techStack": ["Vite", "Tailwind CSS", "Express.js", "Github Gist API"],
-    "favorite": false,
-    "link": "https://airbuckets.cloud",
-    "imageUrl": "/images/airbuckets.png"
-  },
-  {
-    "id": 33,
-    "title": "Shimmer Design Styles",
-    "description": "A comprehensive collection of modern shimmer loading effects and skeleton screens.",
-    "techStack": ["HTML", "Tailwind CSS"],
-    "link": "https://shimmereffects.netlify.app",
-    "imageUrl": "/images/shimmer.png"
-  },
-  {
-    "id": 34,
-    "title": "Tic Tac Toe",
-    "description": "A modern take on the classic Tic Tac Toe game featuring a clean, responsive interface with smooth animations.",
-    "techStack": ["Vite", "Tailwind CSS", "Express.js"],
-    "link": "https://tiktaka.netlify.app",
-    "imageUrl": "/images/tictactoe.png"
-  },
-  {
-    "id": 35,
-    "title": "PayPort",
-    "description": "PayPort is a comprehensive digital payment solution that allows users to manage various financial transactions seamlessly.",
-    "techStack": [
-      "Vite",
-      "Tailwind CSS",
-      "Express.js",
-      "TypeScript",
-      "Redux Store"
-    ],
-    "favorite": true,
-    "link": "https://payportservices.netlify.app",
-    "imageUrl": "/images/payport.png"
-  },
-  {
-    "id": 36,
-    "title": "Harmony AI",
-    "description": "As the developer behind Harmony AI, I worked closely with my client to create a comprehensive mental wellness platform offering personalized therapeutic tools and guided self-reflection capabilities.",
-    "techStack": [
-      "Vite",
-      "Tailwind CSS",
-      "Express.js",
-      "TypeScript",
-      "MongoDB",
-      "OpenAI API",
-      "Claude API",
-      "i18n"
-    ],
-    "link": "https://therapyaiprod.netlify.app",
-    "imageUrl": "/images/harmony.png"
-  },
-  {
-    "id": 37,
-    "title": "DineZap",
-    "description": "DineZap eliminate the slow, manual ordering process that hurts both customer experience and restaurant revenue. Customers scan a QR code at their table to order and pay instantly via their phone, eliminating wait times and boosting restaurant efficiency.",
-    "techStack": [
-      "Vite",
-      "Tailwind CSS",
-      "Node.js",
-      "Framer Motion",
-      "Tanstack Query",
-      "MongoDB",
-      "Sentry",
-      "Cloudinary",
-      "Helmet"
-    ],
-    "link": "https://dinezap.services",
-    "imageUrl": "/images/dinezap.png"
-  },
-  {
-    "id": 37,
-    "title": "RecipeShare",
-    "description": "RecipeShare is a modern, user-friendly web application designed to bring food enthusiasts together to share, discover, and review recipes. Built with a mobile-first, accessible, and responsive design, RecipeShare fosters a vibrant community where users can create, save, and explore recipes tailored to their preferences.",
-    "techStack": [
-      "Next.js",
-      "Node.js",
-      "MongoDB",
-      "Cloudinary"
-    ],
-    "link": "https://recipe-share-frontend-mu.vercel.app",
-    "imageUrl": "/images/recipeshare.png"
-  }
+ {
+  "id": 13,
+  "title": "Valarlucir Merch Store",
+  "description": "An e-commerce merch site built with Vite and TypeScript. It features category navigation, product galleries, cart management, and Stripe-powered checkout—all wrapped in a polished UI using Headless UI, Radix Dialogs/Toasts, Heroicons, and smooth Framer Motion transitions.",
+  "techStack": [
+    "React",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Headlessui",
+    "Radix-Ui",
+    "Framer Motion",
+    "Stripe.js",
+    "Firebase",
+    "Axios",
+    "clsx",
+    "Chart.js"
+  ],
+  "link": "https://valarlucir-frontend.vercel.app",
+  "imageUrl": "/images/valarlucir.png"
+}
 ]

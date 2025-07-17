@@ -1,63 +1,64 @@
 [
   {
-    "id": 1,
-    "title": "Owner",
-    "company": "NexTech Nomad",
-    "location": "Lagos, Nigeria",
-    "duration": "April 2024 - Present",
-    "description": [
-      "Founder & Lead Consultant of a tech agency specializing in innovative web and blockchain solutions. Partnered with clients to deliver cutting edge digital products, business needs into high impact solutions. Provided end-to-end technical consulting, driving optimal performance and client satisfaction."
-    ],
-    "techStack": [
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "JavaScript",
-      "Solidity",
-      "MongoDB",
-      "TailwindCSS",
-      "Railway"
-    ],
-    "imageUrl": "/images/nextechnomad.png"
-  },
+  "id": 1,
+  "title": "Frontend Developer (Intern)",
+  "company": "Tm30 Global Limited",
+  "location": "Lagos, Nigeria",
+  "duration": "February 2024 - Present",
+  "description": [
+    "Currently interning at TM30 Global Limited, focusing on building clean, responsive banking agency UIs with HTML, CSS, and React.js.",
+    "Developed a static banking dashboard prototype to match design specifications—laying the groundwork for future interactivity.",
+    "Deepening skills in advanced JavaScript, React‑Redux, and TypeScript through hands‑on tasks and mentorship.",
+    "Collaborating with senior developers in Agile ceremonies—attending sprint planning, stand‑ups, and code reviews to absorb best practices."
+  ],
+  "techStack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "React.js",
+    "TailwindCSS",
+    "Figma"
+  ],
+  "imageUrl": "/images/logo1.jpeg"
+},
   {
     "id": 2,
-    "title": "Frontend Engineer",
-    "company": "PayOnUs",
+    "title": "Front. Developer (Academic Projects)",
+    "company": "Yaba College of Technology",
     "location": "Lagos, Nigeria",
-    "duration": "January 2025 - Present",
+    "duration": "Novembar 2024 - April 2025",
     "description": [
-      "Frontend Engineer at PayOnUs, where I developed dynamic, responsive web applications using React, prioritizing accessibility and user experience. Collaborated with cross-functional Agile teams, participating in sprint planning and daily stand ups to deliver scalable, high quality solutions."
+      "Delivered multiple final‑year projects as the frontend lead, including a Biometric Attendance System and an OCR‑based Vehicle Verification System among others.",
+      "Built a mobile‑first React web app for the biometric system, integrating Firebase for real‑time data and an Arduino fingerprint scanner for hardware interaction.",
+      "Reimplemented the vehicle verification solution with Python, OpenCV, and Tesseract OCR to automatically read license plates, replacing earlier RFID‑based approaches.",
+      "Ensured clean, responsive UI/UX and robust API integration across all projects, adhering to accessibility and performance best practices.",
+      "Collaborated with teammates on design, documentation, and presentations to academic panels."
     ],
     "techStack": [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "TypeScript",
       "React.js",
-      "TailwindCSS"
+      "JavaScript",
+      "TailwindCSS",
+      "Firebase",
+      "Python",
+      "OpenCV",
+      "Tesseract OCR"
     ],
-    "imageUrl": "/images/onusFavicon.png"
+    "imageUrl": "/images/yabatech-logo.jpg"
   },
   {
     "id": 3,
     "title": "Freelancer",
     "company": "Upwork",
     "location": "Lagos, Nigeria",
-    "duration": "April 2024 - February 2025",
+    "duration": "March 2022 - March 2023",
     "description": [
-      "Freelance Web Developer and Technical Consultant, delivering project management and technical consulting services to ensure timely delivery and client satisfaction. Specialize in developing custom web applications using React and collaborating closely with clients to understand their needs and deliver innovative, scalable solutions."
+      "Collaborated with clients on Upwork to build fast, responsive websites with HTML, CSS and vanilla JavaScript.",
+      "Turned design mockups into pixel‑perfect, accessible layouts across all major browsers.",
+      "Enhanced UX with sliders, modals and real‑time form validation using modern JavaScript and the DOM API.",
+      "Boosted performance by trimming assets and lazy‑loading content for snappier load times.",
+      "Kept communication clear via messages and video calls to nail down requirements and hit every deadline."
     ],
-    "techStack": [
-      "React.js",
-      "Next.js",
-      "Node.js",
-      "JavaScript",
-      "Solidity",
-      "MongoDB",
-      "TailwindCSS",
-      "Railway"
-    ],
+    "techStack": ["HTML5", "CSS3", "JavaScript"],
     "imageUrl": "/images/upwork.png"
   }
 ]

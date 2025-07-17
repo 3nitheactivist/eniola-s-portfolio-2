@@ -21,11 +21,11 @@ export default function ProjectsPage() {
   ).sort((a, b) => b[1] - a[1]).slice(0, 3)
 
   const techCategories = {
-    frontend: ['HTML', 'CSS', 'JavaScript', 'React', 'Next.js', 'Vite', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
-    backend: ['Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Railway', 'Supabase', 'Prisma'],
-    blockchain: ['Solidity', 'Web3.js', 'Ethers.js', 'Hardhat', 'OpenZeppelin'],
-    ai: ['OpenAI API', 'HuggingFace', 'GPT-4', 'RapidAPI'],
-    tools: ['Chart.js', 'Discord.js', 'Whatsapp-web.js', 'Telegraf', 'LocalStorage', 'GitHub API']
+    frontend: ['HTML', 'CSS', 'JavaScript', 'React', 'Vite', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    backend: ['Firebase','Node.js', 'Express',],
+    // // blockchain: ['Solidity', 'Web3.js', 'Ethers.js', 'Hardhat', 'OpenZeppelin'],
+    // ai: ['OpenAI API', 'HuggingFace', 'GPT-4', 'RapidAPI'],
+    tools: ['OpenCV', 'Tesseract OCR', 'Bluetooth-Serial-Port', 'UserRole API','Chart.js', 'Whatsapp-web.js', 'Telegraf', 'LocalStorage', 'GitHub API']
   }
   
   const introSlides = [
@@ -33,7 +33,7 @@ export default function ProjectsPage() {
       title: "Welcome to My Project Gallery",
       content: `✨ Hello, fellow developers! ✨\n\n` +
         `🚀 Ready to explore my coding adventures?\n` +
-        `💻 From simple scripts to full-stack applications\n` +
+        `💻 From simple scripts to web applications\n` +
         `🌟 Each project tells a unique story\n\n` +
         `Let's dive in...`
     },
@@ -58,10 +58,10 @@ export default function ProjectsPage() {
         `${techStacks.filter(tech => techCategories.frontend.includes(tech)).join(' • ')}\n\n` +
         `⚙️ Backend & Databases\n` +
         `${techStacks.filter(tech => techCategories.backend.includes(tech)).join(' • ')}\n\n` +
-        `⛓️ Blockchain Development\n` +
-        `${techStacks.filter(tech => techCategories.blockchain.includes(tech)).join(' • ')}\n\n` +
-        `🤖 AI & Machine Learning\n` +
-        `${techStacks.filter(tech => techCategories.ai.includes(tech)).join(' • ')}\n\n` +
+        // `⛓️ Blockchain Development\n` +
+        // `${techStacks.filter(tech => techCategories.blockchain.includes(tech)).join(' • ')}\n\n` +
+        // `🤖 AI & Machine Learning\n` +
+        // `${techStacks.filter(tech => techCategories.ai.includes(tech)).join(' • ')}\n\n` +
         `🛠️ Development Tools\n` +
         `${techStacks.filter(tech => techCategories.tools.includes(tech)).join(' • ')}`
     },
@@ -75,8 +75,8 @@ export default function ProjectsPage() {
         const categoryEmojis = {
           frontend: '🎨',
           backend: '⚙️',
-          blockchain: '⛓️',
-          ai: '🤖',
+          // blockchain: '⛓️',
+          // ai: '🤖',
           tools: '🛠️',
           other: '📦'
         }

@@ -65,15 +65,28 @@ export default function ProjectCard({ project, isExpanded, onExpand }) {
               Tech Stack
             </dt>
             <dd className="mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2">
-              {project.techStack.join(", ")}
-            </dd>
-          </div>
+      {project.techStack.join(", ")}
+    </dd>
+  </div>
+  {project.credentials && (
+    <div className="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+      <dt className="text-sm font-medium text-gray-500 dark:text-gray-300">
+        Credentials
+      </dt>
+      <dd className="mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2 space-y-1">
+        <div>Email: <code>{project.credentials.email}</code></div>
+        <div>Password: <code>{project.credentials.password}</code></div>
+        <div>Role: <code>{project.credentials.role}</code></div>
+      </dd>
+    </div>
+  )}
           {project.link && (
             <div className="py-3 sm:py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
               <dt className="text-sm font-medium text-gray-500 dark:text-gray-300">
                 Link
               </dt>
               <dd className="mt-1 text-sm text-gray-900 dark:text-white sm:mt-0 sm:col-span-2">
+                
                 <a
                   href={project.link}
                   className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200"

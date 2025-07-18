@@ -29,7 +29,7 @@
     "duration": "Novembar 2024 - April 2025",
     "description": [
       "I served as the Frontend Lead on multiple capstone projects, most notably a mobile‑first React Biometric Attendance System integrating Firebase and an Arduino fingerprint scanner, and a Python/OpenCV‑powered OCR Vehicle Verification System.",
-      "I focused on building clean, responsive interfaces, ensuring robust API connections, and upholding accessibility and performance standards.",
+      "I focused on building clean, responsive interfaces, ensuring robust API connections, optimized data handling and storage with Firebase, and upholding accessibility and performance standards.",
       "I partnered closely with classmates to lead design reviews, documentation efforts, and presentations to academic panels."
     ],
     "techStack": [

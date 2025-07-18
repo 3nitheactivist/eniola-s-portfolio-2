@@ -71,7 +71,7 @@ export default function Home() {
         >
           {/* Resume Button */}
           <motion.a
-            href="/famade eniola's cv.docx"
+            href="/famadeeniola-cv-2025.pdf"
             target="_blank"
             className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700 transition-colors"
             whileHover={{ scale: 1.05 }}

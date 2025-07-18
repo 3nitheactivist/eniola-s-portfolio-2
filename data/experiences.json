@@ -5,12 +5,12 @@
   "company": "Tm30 Global Limited",
   "location": "Lagos, Nigeria",
   "duration": "February 2024 - Present",
-  "description": [
-    "Currently interning at TM30 Global Limited, focusing on building clean, responsive banking agency UIs with HTML, CSS, and React.js.",
-    "Developed a static banking dashboard prototype to match design specifications—laying the groundwork for future interactivity.",
-    "Deepening skills in advanced JavaScript, React‑Redux, and TypeScript through hands‑on tasks and mentorship.",
-    "Collaborating with senior developers in Agile ceremonies—attending sprint planning, stand‑ups, and code reviews to absorb best practices."
-  ],
+    "description": [
+      "I’m currently interning at TM30 Global Limited, where I am designing clean and responsive user interfaces for banking applications using HTML, CSS, and React.js.",
+      "I have created a static prototype of the dashboard that meets the design specifications and lays the foundation for future interactivity.",
+      "Throughout this process, I am enhancing my JavaScript skills, exploring React Redux and TypeScript.",
+      "I collaborate with senior developers during sprint planning, stand‑up meetings, and code reviews to learn best practices."
+    ],
   "techStack": [
     "HTML",
     "CSS",
@@ -28,11 +28,9 @@
     "location": "Lagos, Nigeria",
     "duration": "Novembar 2024 - April 2025",
     "description": [
-      "Delivered multiple final‑year projects as the frontend lead, including a Biometric Attendance System and an OCR‑based Vehicle Verification System among others.",
-      "Built a mobile‑first React web app for the biometric system, integrating Firebase for real‑time data and an Arduino fingerprint scanner for hardware interaction.",
-      "Reimplemented the vehicle verification solution with Python, OpenCV, and Tesseract OCR to automatically read license plates, replacing earlier RFID‑based approaches.",
-      "Ensured clean, responsive UI/UX and robust API integration across all projects, adhering to accessibility and performance best practices.",
-      "Collaborated with teammates on design, documentation, and presentations to academic panels."
+      "I served as the Frontend Lead on multiple capstone projects, most notably a mobile‑first React Biometric Attendance System integrating Firebase and an Arduino fingerprint scanner, and a Python/OpenCV‑powered OCR Vehicle Verification System.",
+      "I focused on building clean, responsive interfaces, ensuring robust API connections, and upholding accessibility and performance standards.",
+      "I partnered closely with classmates to lead design reviews, documentation efforts, and presentations to academic panels."
     ],
     "techStack": [
       "React.js",
@@ -52,11 +50,10 @@
     "location": "Lagos, Nigeria",
     "duration": "March 2022 - March 2023",
     "description": [
-      "Collaborated with clients on Upwork to build fast, responsive websites with HTML, CSS and vanilla JavaScript.",
-      "Turned design mockups into pixel‑perfect, accessible layouts across all major browsers.",
-      "Enhanced UX with sliders, modals and real‑time form validation using modern JavaScript and the DOM API.",
-      "Boosted performance by trimming assets and lazy‑loading content for snappier load times.",
-      "Kept communication clear via messages and video calls to nail down requirements and hit every deadline."
+      "I’ve teamed up with Upwork clients to turn design mockups into fast, responsive sites using HTML, CSS, and vanilla JS.",
+      "I build clean, accessible layouts across all browsers and add UX extras like sliders, modals, and live form validation.",
+      "I speed things up by trimming assets and lazy‑loading content for snappier load times.",
+      "I keep requirements on point and hit every deadline with clear messaging and video calls."
     ],
     "techStack": ["HTML5", "CSS3", "JavaScript"],
     "imageUrl": "/images/upwork.png"

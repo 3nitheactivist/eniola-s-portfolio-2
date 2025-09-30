@@ -196,6 +196,7 @@
       "WebSocket",
       "Bluetooth-Serial-Port"
     ],
+    "favorite": true,
     "credentials": {
       "email": "yabatechnfc@gmail.com",
       "password": "yabatech2025",
@@ -223,6 +224,7 @@
   "id": 13,
   "title": "Valarlucir Merch Store",
   "description": "An e-commerce merch site built with Vite and TypeScript. It features category navigation, product galleries, cart management, and Stripe-powered checkout—all wrapped in a polished UI using Headless UI, Radix Dialogs/Toasts, Heroicons, and smooth Framer Motion transitions.",
+  "isInDevelopment": true,
   "techStack": [
     "React",
     "TypeScript",
@@ -239,5 +241,29 @@
   ],
   "link": "https://valarlucir-frontend.vercel.app",
   "imageUrl": "/images/valarlucir.png"
+},
+ {
+  "id": 14,
+  "title": "GoCart Store",
+  "isInDevelopment": true,
+  "description": "GoCart is an AI-enhanced e-commerce storefront built with Next.js and Turbopack. It pairs a Neon serverless database with Prisma for reliable data modeling, Clerk for authentication, and Inngest to run background AI tasks (recommendations, async processing, and other background workflows). The product UI is built with React and Tailwind CSS and includes dynamic product catalogs, personalized AI-driven suggestions, secure checkout flows, and automated background processing.",
+  "techStack": [
+    "Next.js",
+    "Turbopack",
+    "React",
+    "Tailwind CSS",
+    "Neon",
+    "Prisma",
+    "Inngest",
+    "Clerk",
+    "Redux Toolkit",
+    "Axios",
+    "ImageKit",
+    "Recharts",
+    "React Hot Toast",
+    "ws"
+  ],
+  "link": "https://gocart-web-app.vercel.app",
+  "imageUrl": "/images/gocart.png"
 }
 ]

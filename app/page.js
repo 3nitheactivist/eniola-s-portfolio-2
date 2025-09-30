@@ -34,14 +34,15 @@ export default function Home() {
               delay: 0.1
             }}
           >
-            <Image
-              src="/images/profile.png"
-              alt="Famade Eniola"
-              width={80}
-              height={80}
-              className="rounded-full border-2 border-gray-200 dark:border-gray-700 shadow-lg"
-              priority
-            />
+            <div className="relative h-16 w-16 rounded-full overflow-hidden border-2 border-gray-200 dark:border-gray-700 shadow-lg">
+              <Image
+                src="/images/my-profile-eniola.jpg"
+                alt="Famade Eniola"
+                fill
+                className="object-cover"
+                priority
+              />
+            </div>
           </motion.div>
           <div>
             <motion.h1

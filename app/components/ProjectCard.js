@@ -22,6 +22,13 @@ export default function ProjectCard({ project, isExpanded, onExpand }) {
     >
       {project.imageUrl && (
         <div className="w-full h-48 relative overflow-hidden">
+          {project.isInDevelopment && (
+            <div className="absolute top-2 left-2 z-10">
+              <span className="px-2 py-1 text-[10px] font-semibold uppercase tracking-wider bg-yellow-100 text-yellow-800 dark:bg-yellow-300/20 dark:text-yellow-200 rounded">
+                In Development
+              </span>
+            </div>
+          )}
           <Image
             src={project.imageUrl}
             alt={project.title}
@@ -93,7 +100,7 @@ export default function ProjectCard({ project, isExpanded, onExpand }) {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Project
+                  {project.isInDevelopment ? "Preview (In Development)" : "View Project"}
                 </a>
               </dd>
             </div>

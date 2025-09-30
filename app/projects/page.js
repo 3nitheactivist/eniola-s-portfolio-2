@@ -31,7 +31,7 @@ export default function ProjectsPage() {
   const introSlides = [
     {
       title: "Welcome to My Project Gallery",
-      content: `✨ Hello, fellow developers! ✨\n\n` +
+      content: `✨ Hello, fellow developers and visitors! ✨\n\n` +
         `🚀 Ready to explore my coding adventures?\n` +
         `💻 From simple scripts to web applications\n` +
         `🌟 Each project tells a unique story\n\n` +
